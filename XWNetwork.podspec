@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XWNetwork'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '网络请求服务'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,27 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'XWNetwork/Classes/**/*'
+  s.source_files = 'XWNetwork/Classes/*.{h,m}'
+  
+  s.subspec 'Cache' do |ss|
+      ss.source_files = 'XWNetwork/Classes/Cache/*.{h,m}'
+  end
+  
+  s.subspec 'DevTool' do |ss|
+      ss.source_files = 'XWNetwork/Classes/DevTool/*.{h,m}'
+  end
+  
+  s.subspec 'Domain' do |ss|
+      ss.source_files = 'XWNetwork/Classes/Domain/*.{h,m}'
+  end
+  
+  s.subspec 'Network' do |ss|
+      ss.source_files = 'XWNetwork/Classes/Network/*.{h,m}'
+  end
+  
+  s.subspec 'Protocol' do |ss|
+      ss.source_files = 'XWNetwork/Classes/Protocol/*.{h,m}'
+  end
   
   # s.resource_bundles = {
   #   'XWNetwork' => ['XWNetwork/Assets/*.png']

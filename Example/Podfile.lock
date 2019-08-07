@@ -22,7 +22,27 @@ PODS:
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
-  - XWNetwork (0.1.0):
+  - XWNetwork (0.1.1):
+    - AFNetworking (~> 3.2.1)
+    - FMDB (~> 2.5)
+    - XWNetwork/Cache (= 0.1.1)
+    - XWNetwork/DevTool (= 0.1.1)
+    - XWNetwork/Domain (= 0.1.1)
+    - XWNetwork/Network (= 0.1.1)
+    - XWNetwork/Protocol (= 0.1.1)
+  - XWNetwork/Cache (0.1.1):
+    - AFNetworking (~> 3.2.1)
+    - FMDB (~> 2.5)
+  - XWNetwork/DevTool (0.1.1):
+    - AFNetworking (~> 3.2.1)
+    - FMDB (~> 2.5)
+  - XWNetwork/Domain (0.1.1):
+    - AFNetworking (~> 3.2.1)
+    - FMDB (~> 2.5)
+  - XWNetwork/Network (0.1.1):
+    - AFNetworking (~> 3.2.1)
+    - FMDB (~> 2.5)
+  - XWNetwork/Protocol (0.1.1):
     - AFNetworking (~> 3.2.1)
     - FMDB (~> 2.5)
 
@@ -44,7 +64,7 @@ SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
-  XWNetwork: c5581b037f8cbd8d4641b3713edecc20cc936456
+  XWNetwork: 53d0de94aff6795cd8e1c58d472916f24f63955e
 
 PODFILE CHECKSUM: c82b098455b6040773cb4b0f12844025d96756ab
 
